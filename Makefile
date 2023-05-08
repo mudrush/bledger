@@ -18,7 +18,7 @@ default:
 	
 # Updates depdendencies
 update:
-	${GO} mod tidy && cd ./integration_tests && npm install && cd ..
+	${GO} mod tidy && cd ./integration_tests && pnpm install && cd ..
 
 # Runs tests
 test: 
