@@ -178,7 +178,7 @@ CACHE_PASSWORD=eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81
 ### Description
 The following project is a non-versioned transction ledger that allows for 1-step and 2-step transctions to be created on an account. You can create accounts, fetch their balances and create immediate and 2-step transactions using CREDIT or DEBIT.
 
-Immediate transactions immediately move to a `COMPLETED` state if it passes balance and currency checks, while a 2-step transaction lets the consumer create a transaction that moves to `PENDING` state with a subsequent api call that moves it into `COMPLETED` if it passes the checks
+Immediate transactions immediately move to a `COMPLETED` state if they pass balance and currency checks, while a 2-step transaction lets the consumer create a transaction that moves to `PENDING` state with a subsequent api call that moves it into `COMPLETED` if it passes the checks. `COMPLETED` transactions can be reversed, and will make balance changes on the associated account; the resulting balance is `REVERSED`.
 
 The transactions and account balance update management rely on DB transaction atomicity and mutexes. The transaction controller sets account and transaction locks to prevent multiple writes to the same row of data that could cause data loss.
 
