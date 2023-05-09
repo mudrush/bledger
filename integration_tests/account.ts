@@ -3,8 +3,8 @@ import fetch from "node-fetch";
 import { Account } from "./interfaces";
 
 export async function accounts() {
-  // await testCreateAccount();
-  // await testGetAccount();
+  await testCreateAccount();
+  await testGetAccount();
 }
 
 export async function testGetAccount() {
