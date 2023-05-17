@@ -7,7 +7,7 @@ require (
 	github.com/gin-gonic/gin v1.9.0
 	github.com/joho/godotenv v1.5.1
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/sirupsen/logrus v1.9.0
+	github.com/sirupsen/logrus v1.9.1
 	go.uber.org/zap v1.24.0
 	gopkg.in/redis.v5 v5.2.9
 	gorm.io/driver/postgres v1.4.8
