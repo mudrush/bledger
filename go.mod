@@ -45,7 +45,7 @@ require (
 	github.com/onsi/gomega v1.27.1 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.6 // indirect
 	github.com/segmentio/ksuid v1.0.4
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.4
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.9 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
