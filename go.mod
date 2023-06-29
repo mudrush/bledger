@@ -11,7 +11,7 @@ require (
 	go.uber.org/zap v1.24.0
 	gopkg.in/redis.v5 v5.2.9
 	gorm.io/driver/postgres v1.4.8
-	gorm.io/gorm v1.24.5
+	gorm.io/gorm v1.25.2
 )
 
 require (
